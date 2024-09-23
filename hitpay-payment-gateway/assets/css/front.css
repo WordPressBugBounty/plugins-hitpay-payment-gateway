@@ -1,0 +1,127 @@
+.hitpay-payment-gateway-form .payment-labels-container {
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+
+.hitpay-payment-gateway-form {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+
+.hitpay-payment-gateway-form .payment-labels {
+    background: #ebebeb;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.payment_method_hitpay .payment_method_hitpay_custom_box {
+    background-color: #fafafa !important;
+    padding: 1em !important;
+    margin-top: 0 !important;
+}
+.payment_method_hitpay .payment_box.payment_method_hitpay:before {
+    display: none !important;
+}
+.wc_payment_method .payment_box{
+	padding: 0 !important;
+	background: none !important;
+}
+
+.hitpay-payment-gateway-form .payment-labels img {
+    float: right;
+    border: 0;
+    padding: 0;
+    max-height: 20px;
+    order: 2;
+    margin-left: auto !important;
+}
+
+.hitpay-payment-gateway-form .payment-labels img {
+    border-radius: 0px;
+    max-width:200px;
+    min-height:24px;
+    max-height:24px;
+}
+
+.hitpay-payment-gateway-form .payment-labels > label {
+    margin-bottom: 0 !important;
+    display: flex !important;
+    align-items: center;
+    font-size: 14px;
+    line-height: normal;
+    word-break: break-word;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.payment_method_hitpay .hitpay-payment-gateway-form > p {
+    font-size: 15px;
+    color: #6d6d6d;
+}
+
+body.theme-storefront.right-sidebar .hitpay-payment-gateway-form .payment-labels > label {
+    font-size: 13px;
+}
+
+@media (max-width: 900px) {
+    .hitpay-payment-selection label {
+        float: none !important;
+    }
+}
+.hitpay-payment-selection label{
+    padding-right: 10px;
+}
+
+#hitpay_background_layer {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(12px) brightness(70%);
+    -webkit-backdrop-filter: blur(12px) brightness(70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    display: none;
+}
+
+.wc-block-components-radio-control-accordion-content .hitpay-payment-selection {
+    padding: 8px;
+    border: 1px solid #eee;
+}
+.wc-block-components-radio-control-accordion-content .hitpay-payment-selection p{
+    position: relative;
+    top: -2px;
+    padding: 5px;
+}
+.hitpay-pos-online-multiple {
+    display: block;
+}
+.hitpay-pos-card-reader-multiple {
+    display: block;
+}
+
+.hitpay-own-payment-button {
+	border-radius: 100px;
+    box-shadow: none!important;
+    height: 50px;
+    max-width: 100%!important;
+    width: 100%!important;
+	background: linear-gradient(155deg,#002771,#5e0fc3)!important;
+    border-color: #ffffffa8;
+	align-items: center;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.hitpay-own-payment-button:hover{
+	background-color: #223159!important;
+	text-decoration:none!important;
+	opacity:0.9
+}
